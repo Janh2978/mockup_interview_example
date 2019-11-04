@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Navbar-example</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="flex-direction:column;">
+    <div style="background-color: rgb(255,107,0); width:100%;">
+      <div class="container" style="display:flex;justify-content: space-between;">
+        <div style="color: white;"><span style="color: rgb(215,64,0)">CALL US NOW </span>385.154.11.28.35</div>
+        <div>
+          <div style="padding-right: 10px; display: inline-block; color: rgb(215,64,0);">LOGIN</div>
+          <div style="padding-right: 10px; display: inline-block; color: white;">SIGNUP</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <a class="navbar-brand" href="#">YOUR<span style="color:rgb(255,107,0)">LOGO</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav" style="padding-right: 30px;">
+          <li class="nav-item">
+            <a class="nav-link" href="#">              
+              <span class="op">TITLE 1</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <span class="op">TITLE 2</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">SUBMENU 1</a>
+              <a class="dropdown-item" href="#">SUBMENU 2</a>
+              <div class="dropdown dropright dropdown-item" id="dLabel">
+                <a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  SUBMENU 3
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dLabel">
+                  <a class="dropdown-item" href="#">SUBMENU 1</a>
+                  <a class="dropdown-item" href="#">SUBMENU 2</a>
+                  <a class="dropdown-item" href="#">SUBMENU 3</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="op">TITLE 3</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="op">TITLE 4</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="op">TITLE 5</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="op">TITLE 6</span>              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="op">TITLE 7</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="container">
+    <div class="site-map">
+      <h6>Home / Who we are / <span style="color: rgba(0, 0, 0, 0.9); font-weight: 700;">Contact</span></h6>
+    </div>
+    <div class="contact-cont">
+      <h3>
+        Contact
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cumque ipsa impedit delectus tempora doloribus
+        est aspernatur magnam! Reiciendis quo qui illum itaque sit.
+      </p>
+    </div>
+  </section>
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6 form-box">
+        <h3>contact us</h3>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Name*">
+            </div> 
+          </div> 
+          <div class="form-row">
+            <div class="form-group col-md-6"> 
+              <input type="text" class="form-control" id="inputCity" placeholder="Phone*">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" id="inputCity" placeholder="Email*">
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message*"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">SUBMIT</button>
+        </form>
+      </div>
+      <div class="col-md-6 contact-box">
+        <h3>reach us</h3>
+        <span>Coallition Skill Test</span>
+        <div class="addr">
+          <span>
+            535 La Plata Street
+          </span>
+          <span>
+            4200 Argentina
+          </span>
+        </div>
+        <div class="number">
+          <span>
+            Phone 3835.123.123.123
+          </span>
+          <span>
+            Fax 3835.123.123.123
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer><br></footer>
+</body>
+
+</html>
